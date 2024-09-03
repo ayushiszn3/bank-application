@@ -1,0 +1,33 @@
+.transaction-history {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history h1 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  margin-bottom: 10px; /* Add margin for spacing between transactions */
+  border-radius: 5px; /* Optional: rounded corners for each transaction */
+}
+
+li:nth-child(odd) {
+  background-color: #f9f9f9;
+}

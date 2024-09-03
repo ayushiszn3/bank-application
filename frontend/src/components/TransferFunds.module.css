@@ -1,0 +1,68 @@
+/* TransferFunds.module.css */
+.transferFunds {
+  background-color: #fff; /* White background for consistency with the dashboard */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Similar box shadow as the dashboard */
+  max-width: 1000px; /* Adjust width as needed */
+  margin: 30px auto; /* Center align and margin similar to dashboard */
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333; /* Dark text for consistency */
+  text-align: center; /* Centered heading */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #333; /* Dark text for labels */
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #007bff; /* Consistent with icon color */
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 50%; /* Smaller button size */
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3; /* Hover color consistent with toggle button */
+}
+
+.submitButton:active {
+  background-color: #004080;
+}
